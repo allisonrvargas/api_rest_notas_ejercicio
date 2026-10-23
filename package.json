@@ -1,0 +1,17 @@
+{
+  "name": "api-notas",
+  "version": "1.0.0",
+  "description": "API REST de notas con Node.js y MySQL",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "mysql2": "^3.9.7",
+    "dotenv": "^16.4.5"
+  }
+}
